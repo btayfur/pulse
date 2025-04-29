@@ -13,7 +13,7 @@ This project allows you to connect and read data from four ADXL355 accelerometer
 
 ### Components
 - A microcontroller:
-Most microcontroller can be used but for high frequencies, 80 MHz and higher clock speeds are needed. I used Arduino Due (84 MHz) in first version but upgraded to ESP32 ESP-32S (160 MHz) later. I'll upgrade it to Teensy 4.x eventually. If you check the board scheme microcontroller part can be replaced easily. Only 4 jumper should be connected.
+Most microcontroller can be used but for high frequencies, 80 MHz and higher clock speeds are needed. I used Arduino Due (84 MHz) in first version but upgraded to ESP32 ESP-32S (160 MHz) later. I'll upgrade it to Teensy 4.x eventually. If you check the board scheme microcontroller part can be replaced easily. Only 4 jumper should be connected (3.3v, GND, SDA, SCL).
 - TCA9548A I2C multiplexer
 - Four ADXL355 accelerometers
 - Supporting circuitry as shown in the schematic (see `board/scheme.JPG`), I'll add fritzing scheme as soon as possible.
