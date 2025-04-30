@@ -49,7 +49,7 @@ Using cat cables can be not the best solution and it could be an overkill. I nee
 1. Open `I2c_switcher/I2c_switcher.ino` in the Arduino IDE
 2. Upload the sketch to your Arduino
 3. Open the Serial Monitor at 500000 baud (Higher baudrates can be used but needs to test first.)
-4. Data will be displayed in tab-separated format: `X1 Y1 Z1 X2 Y2 Z2 X3 Y3 Z3 X4 Y4 Z4` You need to use your own timestamp. Arduino IDE is works well.
+4. Data will be displayed in tab-separated format: `X1 Y1 Z1 X2 Y2 Z2 X3 Y3 Z3 X4 Y4 Z4` You need to use your own timestamp. Arduino IDE works well.
 
 Project's current bottleneck is SerialPort for now. In most setups, you can get easily 200-300 Hz sampling rates.
 
