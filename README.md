@@ -67,5 +67,5 @@ For questions or support, please open an issue on GitHub. If you'd like to contr
 If you use this project in your research, please cite the following paper:
 
 ```
-DOI: 10.1016/j.engfailanal.2024.107986
+DOI: 10.1016/j.istruc.2025.110190
 ```
